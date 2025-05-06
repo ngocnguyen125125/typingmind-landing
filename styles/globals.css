@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-white dark:bg-black text-gray-900 dark:text-gray-100 transition-colors duration-300;
+}
+// You can add additional custom CSS here, e.g., for animated gradients.
